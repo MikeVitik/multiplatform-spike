@@ -2,9 +2,9 @@
   "name": "dx-react",
   "version": "1.0.0",
   "description": "",
-  "main": "src/public_api.js",
-  "module": "src/public_api.js",
-  "typings": "src/public_api.d.ts",
+  "main": "dist/public_api.js",
+  "module": "dist/public_api.js",
+  "typings": "dist/public_api.d.ts",
   "scripts": {
     "test": "rollup -c",
     "build:artifact": "tsc --project tsconfig.build.json",
@@ -14,8 +14,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@dx/core": "file:../../dist/dx-core",
-    "dx-core": "file:../../dist/dx-core",
+    "dx-core": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^4.7.4"
